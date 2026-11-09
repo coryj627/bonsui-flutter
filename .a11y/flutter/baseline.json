@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.2.0",
+  "tool_version": "0.2.1",
   "engines": {
-    "static": "0.2.0",
-    "runtime": "0.2.0"
+    "static": "0.2.1",
+    "runtime": "0.2.1"
   },
   "matcher_version": "2",
   "created_at": "2026-11-09T22:16:50.613304Z",
-  "updated_at": "2026-11-09T22:16:50.613304Z",
+  "updated_at": "2026-11-09T22:30:27.480667Z",
   "summary": {
     "finding_count": 116,
     "by_severity": {
@@ -270,7 +270,7 @@
       "screen_id": "button"
     },
     {
-      "id": "sha256:074bfc1f93a6a5b40d190d2f72c89a4a3a0704a01f321313110a87db5851f650",
+      "id": "sha256:726e1981a9ef514e6cf058429d479204bd5f2751496ddc90ab750946f8bf01f6",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -279,7 +279,7 @@
       "file_path": "lib/widgets/button.dart",
       "line": 179,
       "column": 12,
-      "message_hash": "sha256:c2f6a38c78457d3f",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "button"
     },
     {
@@ -373,7 +373,7 @@
       "message_hash": "sha256:2540d998761fdcf9"
     },
     {
-      "id": "sha256:c310dff0ea7e1d0c22c28ff2d6196b9558874a4817c4ecc9368d161e3c2dbe4b",
+      "id": "sha256:78c696ba65bcda021d305b000ded002fc844ea00a1bd08910d6e9869736ee17d",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -382,7 +382,7 @@
       "file_path": "lib/widgets/checkbox.dart",
       "line": 54,
       "column": 21,
-      "message_hash": "sha256:7c849cea0b1c56e0",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "checkbox"
     },
     {
@@ -447,7 +447,7 @@
       "message_hash": "sha256:db3ca7926f3d2f71"
     },
     {
-      "id": "sha256:b4e5c2a6c0b648ae4151b20a36d8e8e7c3d78532a73360a7c89e2432c8de7d25",
+      "id": "sha256:ca09b97a1269d411aa89c5456ad69477966e7db555a613b28d42ef2a7831d1a9",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -456,7 +456,7 @@
       "file_path": "lib/widgets/icon.dart",
       "line": 21,
       "column": 14,
-      "message_hash": "sha256:8e36c3810bb545b3",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "bottom-navigation-bar"
     },
     {
@@ -1003,7 +1003,7 @@
       "screen_id": "rating"
     },
     {
-      "id": "sha256:e1da80c0e50ebeba9b515f8e10ef6c9ece4ba2767be51d5ae897489b50d95d64",
+      "id": "sha256:ea20b99003cfe721b58be6985cfcefdc46ecfcfb0ab81859b4671fd6ae81a4b0",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -1012,11 +1012,11 @@
       "file_path": "lib/widgets/rating.dart",
       "line": 44,
       "column": 22,
-      "message_hash": "sha256:e5adc6d4c411bd6d",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "rating"
     },
     {
-      "id": "sha256:b4ec6d66658bd89a5ed13c3e8650dbb09677002895ccaa7df33f80a4b0d346d3",
+      "id": "sha256:45f27a66677f011ab6c4806021e83560cacb324421e3586e23ba691066f493c4",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -1025,7 +1025,7 @@
       "file_path": "lib/widgets/rating.dart",
       "line": 44,
       "column": 22,
-      "message_hash": "sha256:e5adc6d4c411bd6d",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "1",
       "screen_id": "rating"
     },
@@ -1461,7 +1461,7 @@
       "message_hash": "sha256:0b7a247a67344078"
     },
     {
-      "id": "sha256:f834d66f0516edb0de7136256f0c26834fb5999e35120c181d2f673001040f3b",
+      "id": "sha256:6d1bad6656d299a1353639644042cf2f1f02ed56cb906d1433d28fedb1c39904",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -1470,7 +1470,7 @@
       "file_path": "lib/widgets/text_field.dart",
       "line": 984,
       "column": 16,
-      "message_hash": "sha256:d887a91c6fdcf1a8",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "text-field"
     },
     {
