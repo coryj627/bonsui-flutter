@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.2.1",
+  "tool_version": "0.3.0",
   "engines": {
-    "static": "0.2.1",
-    "runtime": "0.2.1"
+    "static": "0.3.0",
+    "runtime": "0.3.0"
   },
   "matcher_version": "2",
   "created_at": "2026-11-09T22:16:50.613304Z",
-  "updated_at": "2026-11-09T22:30:27.480667Z",
+  "updated_at": "2026-11-10T04:25:06.880621Z",
   "summary": {
-    "finding_count": 116,
+    "finding_count": 114,
     "by_severity": {
-      "error": 68,
+      "error": 66,
       "warning": 43,
       "info": 5
     }
@@ -270,19 +270,6 @@
       "screen_id": "button"
     },
     {
-      "id": "sha256:726e1981a9ef514e6cf058429d479204bd5f2751496ddc90ab750946f8bf01f6",
-      "rule_id": "flutter/runtime/icon-contrast-insufficient",
-      "layer": "runtime",
-      "wcag_criterion": "1.4.11",
-      "wcag_guideline": "1.4",
-      "severity": "error",
-      "file_path": "lib/widgets/button.dart",
-      "line": 179,
-      "column": 12,
-      "message_hash": "sha256:0ecbf84990d40582",
-      "screen_id": "button"
-    },
-    {
       "id": "sha256:4607680f17c89b004635297b9c1e8a3f992c25a8a021dc16be1877660797e51d",
       "rule_id": "flutter/static/image-missing-label",
       "layer": "static",
@@ -445,19 +432,6 @@
       "line": 166,
       "column": 15,
       "message_hash": "sha256:db3ca7926f3d2f71"
-    },
-    {
-      "id": "sha256:ca09b97a1269d411aa89c5456ad69477966e7db555a613b28d42ef2a7831d1a9",
-      "rule_id": "flutter/runtime/icon-contrast-insufficient",
-      "layer": "runtime",
-      "wcag_criterion": "1.4.11",
-      "wcag_guideline": "1.4",
-      "severity": "error",
-      "file_path": "lib/widgets/icon.dart",
-      "line": 21,
-      "column": 14,
-      "message_hash": "sha256:0ecbf84990d40582",
-      "screen_id": "bottom-navigation-bar"
     },
     {
       "id": "sha256:332b1c054e818da9e385f6b6a619ba6b921ad338f7e2a4bc8057f8fa703044b6",
