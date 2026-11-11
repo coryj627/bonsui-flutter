@@ -27,7 +27,7 @@ Future<void> _audit(WidgetTester tester, String screenId, Widget child) async {
       ),
     ),
   );
-  await tester.pump(const Duration(milliseconds: 300));
+  // No settle pump: auditScreen settles whatever the first frame started.
   final result = await auditScreen(tester, screenId: screenId);
   // ignore: avoid_print
   print('a11y $screenId: ${result.findings.length} finding(s)');
